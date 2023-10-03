@@ -489,5 +489,64 @@
         </div>
       </div>
     </footer>
+    <!-------Modal window--------------------------------------------------->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-button">
+          <svg class="modal-svg-icon">
+            <use href=""></use>
+          </svg>
+        </button>
+        <p class="modal-tittle">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                placeholder="Enter name"
+                required
+                id="user-name"
+              />
+              <svg class="modal-icon">
+                <use href=""></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Phone</label>
+            <input
+              type="tel"
+              name="name-phone"
+              class="modal-input"
+              placeholder="Enter phone"
+              required
+              id="user-phone"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Email</label>
+            <input
+              type="email"
+              name="name-email"
+              class="modal-input"
+              placeholder="Enter phone email"
+              required
+              id="user-email"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="text-area" class="modal-label">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </label>
+          </div>
+          <button type="submit" class="modal-form-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

@@ -490,6 +490,8 @@
       </div>
     </footer>
     <!-------Modal window--------------------------------------------------->
+    <!--Як токазати/приховати модальне вікно:
+      додати/видалити в div class="backdrop is-open"-->
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-btn">
@@ -546,7 +548,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-textarea">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -557,6 +559,8 @@
           </div>
           <!--------------modal privacy checkbox---------------->
           <div class="modal-privacy-container">
+            <!---добавити додатковий клас visually-hidden
+              для приховання дефолттної іконки-->
             <input
               class="modal-privacy-checkbox visually-hidden"
               type="checkbox"

@@ -635,6 +635,10 @@ img {
     margin-bottom: 8px;
 }
 
+.modal-field-textarea {
+    16px;
+}
+
 .input-wrap {
     position: relative;
 }
@@ -747,7 +751,7 @@ img {
 .modal-privacy-checkbox:checked+.modal-privacy-label .modal-privacy-wrap {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff
+    fill: #F4F4FD;
 }
 
 .modal-privacy-label {

@@ -632,7 +632,7 @@ img {
 .modal-form {}
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .input-wrap {
@@ -740,11 +740,11 @@ img {
     position: absolute;
     border: 0;
     padding: 0;
-    /*приховує стандартну кнопку з галкою*/
-    overflow: hidden;
+    /* overflow: hidden; приховує стандартну кнопку з галкою*/
+
 }
 
-.modal-privacy-checkbox:checked .modal-privacy-label .modal-privacy-wrap {
+.modal-privacy-checkbox:checked+.modal-privacy-label .modal-privacy-wrap {
     background-color: #404bbf;
     border: none;
     fill: #ffffff

@@ -544,6 +544,68 @@ img {
     fill: #f4f4fd;
 }
 
+/*======Стилізація коонтейнера subscribe==*/
+.subscribe-conteiner {}
+
+.subscribe-text {
+    margin-bottom: 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe-form-label {}
+
+.subscribe-label-email {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 2;
+    /* 200% */
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.subscribe-label-email::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-form-btn {
+    display: flex;
+    border: none;
+    min-width: 165px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+
+}
+
+.subscribe-btn-icon {
+    margin-left: 16px;
+}
+
 /*========================================*/
 
 /*===============MODAL====================*/

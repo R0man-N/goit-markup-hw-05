@@ -497,6 +497,11 @@ img {
     text-transform: uppercase;
 }
 
+/*==оформлення social-media-container==*/
+.social-media-container {
+    margin-right: 80px;
+}
+
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
@@ -570,7 +575,7 @@ img {
     background-color: transparent;
     color: #FFF;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     /* 200% */
     letter-spacing: 0.04em;
     padding-left: 16px;
@@ -698,7 +703,7 @@ img {
 }
 
 .modal-field-textarea {
-    16px;
+    margin-bottom: 16px;
 }
 
 .input-wrap {
